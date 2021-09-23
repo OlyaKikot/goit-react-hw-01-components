@@ -3,7 +3,7 @@ import FriendListItem from './FriendListItem';
 import './FriendList.css';
 export default function FriendList({ friends }) {
   return (
-    <ul className="friend-list">
+    <ul className="friendList">
       {friends.map(friend => {
         return (
           <FriendListItem

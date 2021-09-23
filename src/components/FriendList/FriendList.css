@@ -1,4 +1,4 @@
-.friend-list {
+.friendList {
   text-align: center;
   list-style: none;
   width: 500px;
@@ -6,14 +6,15 @@
   margin-right: auto;
   padding: 0;
 }
-.item-friend {
+.itemFriend {
   display: flex;
   margin-bottom: 20px;
   padding: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.avatar-friends {
+.avatarFriends {
+  box-shadow: 0 0 10px rgba(50, 54, 61, 0.5);
   background-color: rgb(217, 240, 243);
   border-radius: 5px;
   display: block;
@@ -31,6 +32,7 @@
   margin-top: 40px;
   margin-right: 20px;
   margin-left: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .offline {
