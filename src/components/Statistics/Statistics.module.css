@@ -33,8 +33,10 @@
   margin-bottom: 10px;
   font-size: 20px;
   color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 }
 .percentage {
   color: #fff;
   font-size: 20px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 }

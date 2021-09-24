@@ -38,3 +38,8 @@
 .offline {
   background-color: rgb(243, 9, 40);
 }
+
+.name {
+  font-size: 30px;
+  font-weight: 600;
+}
