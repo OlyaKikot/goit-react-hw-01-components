@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import s from './FriendList.module.css';
 
 export default function FriendListItem({ isOnline = false, avatar, name, id }) {
-  const className = isOnline ? s.status + ' ' + s.offline : s.status;
+  const className = isOnline ? s.status : s.status + ' ' + s.offline;
   return (
     <li key={id} className={s.itemFriend}>
       <span className={className}>{isOnline}</span>

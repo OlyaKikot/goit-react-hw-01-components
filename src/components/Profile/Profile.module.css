@@ -39,6 +39,7 @@
 }
 
 .stats {
+  border-radius: 5px;
   list-style: none;
   display: flex;
   justify-content: space-around;

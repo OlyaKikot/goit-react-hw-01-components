@@ -20,7 +20,19 @@
 
 .tableTbodyTr:nth-child(odd) {
   background: #fff;
+  transition: background-color 0.15s ease-out;
 }
 .tableTbodyTr:nth-child(even) {
   background: #f7f7f7;
+  transition: background-color 0.15s ease-out;
+}
+
+.tableTbodyTr:nth-child(odd):hover,
+.tableTbodyTr:nth-child(odd):focus {
+  background-color: rgb(242, 245, 197);
+}
+
+.tableTbodyTr:nth-child(even):hover,
+.tableTbodyTr:nth-child(even):focus {
+  background-color: rgb(243, 245, 212);
 }
